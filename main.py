@@ -1,20 +1,20 @@
 import streamlit as st
 with st.sidebar:
-    st.radio('Select operation:', ["Operators","List","Tuples","Dictionary"])
-    st.title("Basic Python Operators: ")
-    st.write("Arithmetic Operators: \n This are used for performing mathematical operations such as Addition, Multiplication, Division etc.")
-    st.subheader('Program for simple Arithmetic operation:')
-    st.write("-----------------------------------------------------------------------")
+st.radio('Select operation:', ["Operators","List","Tuples","Dictionary"])
+st.title("Basic Python Operators: ")
+st.write("Arithmetic Operators: \n This are used for performing mathematical operations such as Addition, Multiplication, Division etc.")
+st.subheader('Program for simple Arithmetic operation:')
+st.write("-----------------------------------------------------------------------")
 
 #=====================================================
-    st.write("**Sum Operator:**")
-    st.write("Q.No.1 ➡ Write a program for sum of below given values:")
-    value1 = 45
-    value2 = 50
-    Sum = value1+value2
-    st.code(">>> value1 = 45 \n>>> value2 = 50 \n>>> Sum = value1 + value2 \n >>> print(Sum)  or \n >>> print(value1 + value2)")
-    if st.button('Output1'):
-        st.code(Sum)
+st.write("**Sum Operator:**")
+st.write("Q.No.1 ➡ Write a program for sum of below given values:")
+value1 = 45
+value2 = 50
+Sum = value1+value2
+st.code(">>> value1 = 45 \n>>> value2 = 50 \n>>> Sum = value1 + value2 \n >>> print(Sum)  or \n >>> print(value1 + value2)")
+if st.button('Output1'):
+    st.code(Sum)
 #======================================================
 st.write("Q.No.2 ➡ Write a program for substraction of below given values:")
 value1 = 100

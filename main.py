@@ -13,7 +13,7 @@ value1 = 45
 value2 = 50
 Sum = value1+value2
 st.code(">>> value1 = 45 \n>>> value2 = 50 \n>>> Sum = value1 + value2 \n >>> print(Sum)  or \n >>> print(value1 + value2)")
-if st.button('Output'):
+if st.button('Output1'):
     st.code(Sum)
 #======================================================
 st.write("Q.No.2 ➡ Write a program for substraction of below given values:")
@@ -21,7 +21,7 @@ value1 = 100
 value2 = 50
 Substraction = value1-value2
 st.code(">>> value1 = 100 \n>>> value2 = 50 \n>>> Substraction = value1 - value2 \n >>> print(Subtraction)  or \n >>> print(value1 - value2)")
-if st.button('Output'):
+if st.button('Output2'):
     st.code(Substraction)
 #======================================================
 st.write("Q.No.3 ➡ Write a program for Multiplication of below given values:")
@@ -29,7 +29,7 @@ value1 = 45
 value2 = 5
 Mul = value1*value2
 st.code(">>> value1 = 45 \n>>> value2 = 5 \n>>> Multiplication = value1 * value2 \n >>> print(Multiplication)  or \n >>> print(value1 * value2)")
-if st.button('Output'):
+if st.button('Output3'):
     st.code(Mul)
 #======================================================
 st.write("Q.No.4 ➡ Write a program for Division of below given values:")
@@ -37,7 +37,7 @@ value1 = 45
 value2 = 5
 Div = value1/value2
 st.code(">>> value1 = 45 \n>>> value2 = 5 \n>>> Division = value1 / value2 \n >>> print(Division)  or \n >>> print(value1 / value2)")
-if st.button('Output'):
+if st.button('Output4'):
     st.code(Div)
 #=======================================================
 st.write("Q.No.5 ➡ Write a program for floor Division of below given values:")
@@ -45,7 +45,7 @@ value1 = 100
 value2 = 10
 F_Div = value1//value2
 st.code(">>> value1 = 100 \n>>> value2 = 10 \n>>> Floor_Division = value1 // value2 \n >>> print(Floor_Division)  or \n >>> print(value1 // value2)")
-if st.button('Output'):
+if st.button('Output5'):
     st.code(F_Div)
 #=======================================================
 st.write("Q.No.6 ➡ Write a program for Exponentiation of below given values:")
@@ -53,7 +53,7 @@ value1 = 5
 value2 = 3
 Expo = value1**value2
 st.code(">>> value1 = 5 \n>>> value2 = 3 \n>>> Exponentiation = value1 ** value2 \n >>> print(Exponentiation)  or \n >>> print(value1 ** value2)")
-if st.button('Output'):
+if st.button('Output6'):
     st.code(Expo)
 #========================================================
 st.write("Q.No.7 ➡ Write a program for Modulus of below given values:")
@@ -61,6 +61,6 @@ value1 = 100
 value2 = 5
 mod = value1/value2
 st.code(">>> value1 = 100 \n>>> value2 = 5 \n>>> Modulus = value1 ** value2 \n >>> print(Modulus)  or \n >>> print(value1 % value2)")
-if st.button('Output'):
+if st.button('Output7'):
     st.code(mod)
 st.write("------------------------------------------------------------------------")

@@ -1,8 +1,8 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 with st.sidebar:
      st.selectbox('Select operation:', ["Operators","List","Tuples","Dictionary"])
-     if ("select operation:" == "List"):
-         st.title("Basic Python Operators: ")
+st.title("Basic Python Operators: ")
 st.write("Arithmetic Operators: \n This are used for performing mathematical operations such as Addition, Multiplication, Division etc.")
 st.subheader('Program for simple Arithmetic operation:')
 st.write("-----------------------------------------------------------------------")

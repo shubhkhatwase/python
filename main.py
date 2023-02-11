@@ -1,7 +1,7 @@
 import streamlit as st
 with st.sidebar:
      st.selectbox('Select operation:', ["Operators","List","Tuples","Dictionary"])
-     if (selected == "Operators"):
+     if ("select operation:" == "Operators"):
           st.title("Basic Python Operators: ")
 st.write("Arithmetic Operators: \n This are used for performing mathematical operations such as Addition, Multiplication, Division etc.")
 st.subheader('Program for simple Arithmetic operation:')
